@@ -1,0 +1,366 @@
+Actual three-process JAR smoke test. Scripted input is not echoed by Scanner.
+
+RUN 1: Five assignment records and reports
+QuickChat registration
+Enter your first name: Enter your last name: Enter your username: Username successfully captured.
+Enter your password: Password successfully captured.
+Enter your cellphone number (+27): Cell phone number successfully added.
+User registered successfully.
+Enter your username to login (or /quit): Enter your password to login: Welcome Kyle, Smith it is great to see you again.
+Welcome to QuickChat.
+How many messages would you like to enter? 
+1) Send Messages
+2) Show recently sent messages
+3) Quit
+4) Stored Messages
+Choose an option: 
+Message number: 0
+Enter recipient number (+27 or local 0 format): Cell phone number successfully captured.
+Enter message (maximum 250 characters): Message ready to send.
+Message ID generated: 9509795340
+1) Send Message
+2) Disregard Message
+3) Store Message to send later
+Choose an action: Message successfully sent.
+Message ID: 9509795340
+Message Hash: 95:0:DIDCAKE
+Recipient: +27834557896
+Message: Did you get the cake?
+
+Message number: 1
+Enter recipient number (+27 or local 0 format): Cell phone number successfully captured.
+Enter message (maximum 250 characters): Message ready to send.
+Message ID generated: 0425942231
+1) Send Message
+2) Disregard Message
+3) Store Message to send later
+Choose an action: Message successfully stored.
+
+Message number: 2
+Enter recipient number (+27 or local 0 format): Cell phone number successfully captured.
+Enter message (maximum 250 characters): Message ready to send.
+Message ID generated: 6529852927
+1) Send Message
+2) Disregard Message
+3) Store Message to send later
+Choose an action: Press 0 to delete the message.
+Enter 0 to delete, or 1 to keep editing: Message disregarded.
+
+Message number: 3
+Enter recipient number (+27 or local 0 format): Cell phone number successfully captured.
+Enter message (maximum 250 characters): Message ready to send.
+Message ID generated: 0193317152
+1) Send Message
+2) Disregard Message
+3) Store Message to send later
+Choose an action: Message successfully sent.
+Message ID: 0193317152
+Message Hash: 01:3:ITTIME
+Recipient: 0838884567
+Message: It is dinner time!
+
+Message number: 4
+Enter recipient number (+27 or local 0 format): Cell phone number successfully captured.
+Enter message (maximum 250 characters): Message ready to send.
+Message ID generated: 4087278143
+1) Send Message
+2) Disregard Message
+3) Store Message to send later
+Choose an action: Message successfully stored.
+Total messages sent: 2
+
+1) Send Messages
+2) Show recently sent messages
+3) Quit
+4) Stored Messages
+Choose an option: 
+Stored Messages
+1) Display senders and recipients
+2) Longest stored message
+3) Search by message ID
+4) Search stored messages by recipient
+5) Delete by message hash
+6) Full stored-message report
+7) Full sent-message report
+8) Search sent or stored messages by recipient
+0) Back
+Choose a stored-message option: Sender: +27838968976 | Recipient: +27838884567
+Sender: +27838968976 | Recipient: +27838884567
+
+Stored Messages
+1) Display senders and recipients
+2) Longest stored message
+3) Search by message ID
+4) Search stored messages by recipient
+5) Delete by message hash
+6) Full stored-message report
+7) Full sent-message report
+8) Search sent or stored messages by recipient
+0) Back
+Choose a stored-message option: Where are you? You are late! I have asked you to be on time.
+
+Stored Messages
+1) Display senders and recipients
+2) Longest stored message
+3) Search by message ID
+4) Search stored messages by recipient
+5) Delete by message hash
+6) Full stored-message report
+7) Full sent-message report
+8) Search sent or stored messages by recipient
+0) Back
+Choose a stored-message option: Recipient: Message ID: 0425942231
+Message Hash: 04:1:WHERETIME
+Recipient: +27838884567
+Message: Where are you? You are late! I have asked you to be on time.
+Sender: +27838968976
+Message Number: 1
+Status: Stored
+
+Message ID: 4087278143
+Message Hash: 40:4:OKYOU
+Recipient: +27838884567
+Message: Ok, I am leaving without you.
+Sender: +27838968976
+Message Number: 4
+Status: Stored
+
+Stored Messages
+1) Display senders and recipients
+2) Longest stored message
+3) Search by message ID
+4) Search stored messages by recipient
+5) Delete by message hash
+6) Full stored-message report
+7) Full sent-message report
+8) Search sent or stored messages by recipient
+0) Back
+Choose a stored-message option: Message ID: 0425942231
+Message Hash: 04:1:WHERETIME
+Recipient: +27838884567
+Message: Where are you? You are late! I have asked you to be on time.
+Sender: +27838968976
+Message Number: 1
+Status: Stored
+
+Message ID: 4087278143
+Message Hash: 40:4:OKYOU
+Recipient: +27838884567
+Message: Ok, I am leaving without you.
+Sender: +27838968976
+Message Number: 4
+Status: Stored
+
+Stored Messages
+1) Display senders and recipients
+2) Longest stored message
+3) Search by message ID
+4) Search stored messages by recipient
+5) Delete by message hash
+6) Full stored-message report
+7) Full sent-message report
+8) Search sent or stored messages by recipient
+0) Back
+Choose a stored-message option: Message ID: 9509795340
+Message Hash: 95:0:DIDCAKE
+Recipient: +27834557896
+Message: Did you get the cake?
+Sender: +27838968976
+Message Number: 0
+Status: Sent
+
+Message ID: 0193317152
+Message Hash: 01:3:ITTIME
+Recipient: 0838884567
+Message: It is dinner time!
+Sender: +27838968976
+Message Number: 3
+Status: Sent
+
+Stored Messages
+1) Display senders and recipients
+2) Longest stored message
+3) Search by message ID
+4) Search stored messages by recipient
+5) Delete by message hash
+6) Full stored-message report
+7) Full sent-message report
+8) Search sent or stored messages by recipient
+0) Back
+Choose a stored-message option: Recipient: Message ID: 0425942231
+Message Hash: 04:1:WHERETIME
+Recipient: +27838884567
+Message: Where are you? You are late! I have asked you to be on time.
+Sender: +27838968976
+Message Number: 1
+Status: Stored
+
+Message ID: 4087278143
+Message Hash: 40:4:OKYOU
+Recipient: +27838884567
+Message: Ok, I am leaving without you.
+Sender: +27838968976
+Message Number: 4
+Status: Stored
+
+Stored Messages
+1) Display senders and recipients
+2) Longest stored message
+3) Search by message ID
+4) Search stored messages by recipient
+5) Delete by message hash
+6) Full stored-message report
+7) Full sent-message report
+8) Search sent or stored messages by recipient
+0) Back
+Choose a stored-message option: 
+1) Send Messages
+2) Show recently sent messages
+3) Quit
+4) Stored Messages
+Choose an option: Total messages sent: 2
+Goodbye.
+
+RUN 2: Restart, ID lookup and persistent deletion
+QuickChat registration
+Enter your first name: Enter your last name: Enter your username: Username successfully captured.
+Enter your password: Password successfully captured.
+Enter your cellphone number (+27): Cell phone number successfully added.
+User registered successfully.
+Enter your username to login (or /quit): Enter your password to login: Welcome Kyle, Smith it is great to see you again.
+Welcome to QuickChat.
+How many messages would you like to enter? 
+1) Send Messages
+2) Show recently sent messages
+3) Quit
+4) Stored Messages
+Choose an option: 
+Stored Messages
+1) Display senders and recipients
+2) Longest stored message
+3) Search by message ID
+4) Search stored messages by recipient
+5) Delete by message hash
+6) Full stored-message report
+7) Full sent-message report
+8) Search sent or stored messages by recipient
+0) Back
+Choose a stored-message option: Message ID: Recipient: +27838884567
+Message: Where are you? You are late! I have asked you to be on time.
+
+Stored Messages
+1) Display senders and recipients
+2) Longest stored message
+3) Search by message ID
+4) Search stored messages by recipient
+5) Delete by message hash
+6) Full stored-message report
+7) Full sent-message report
+8) Search sent or stored messages by recipient
+0) Back
+Choose a stored-message option: Message hash: Message ID: 0425942231
+Message Hash: 04:1:WHERETIME
+Recipient: +27838884567
+Message: Where are you? You are late! I have asked you to be on time.
+Sender: +27838968976
+Message Number: 1
+Status: Stored
+Enter 0 to confirm deletion, or 1 to cancel: Message: "Where are you? You are late! I have asked you to be on time." successfully deleted.
+
+Stored Messages
+1) Display senders and recipients
+2) Longest stored message
+3) Search by message ID
+4) Search stored messages by recipient
+5) Delete by message hash
+6) Full stored-message report
+7) Full sent-message report
+8) Search sent or stored messages by recipient
+0) Back
+Choose a stored-message option: Message ID: 4087278143
+Message Hash: 40:4:OKYOU
+Recipient: +27838884567
+Message: Ok, I am leaving without you.
+Sender: +27838968976
+Message Number: 4
+Status: Stored
+
+Stored Messages
+1) Display senders and recipients
+2) Longest stored message
+3) Search by message ID
+4) Search stored messages by recipient
+5) Delete by message hash
+6) Full stored-message report
+7) Full sent-message report
+8) Search sent or stored messages by recipient
+0) Back
+Choose a stored-message option: 
+1) Send Messages
+2) Show recently sent messages
+3) Quit
+4) Stored Messages
+Choose an option: Total messages sent: 0
+Goodbye.
+
+RUN 3: Restart and verify deleted ID stays absent
+QuickChat registration
+Enter your first name: Enter your last name: Enter your username: Username successfully captured.
+Enter your password: Password successfully captured.
+Enter your cellphone number (+27): Cell phone number successfully added.
+User registered successfully.
+Enter your username to login (or /quit): Enter your password to login: Welcome Kyle, Smith it is great to see you again.
+Welcome to QuickChat.
+How many messages would you like to enter? 
+1) Send Messages
+2) Show recently sent messages
+3) Quit
+4) Stored Messages
+Choose an option: 
+Stored Messages
+1) Display senders and recipients
+2) Longest stored message
+3) Search by message ID
+4) Search stored messages by recipient
+5) Delete by message hash
+6) Full stored-message report
+7) Full sent-message report
+8) Search sent or stored messages by recipient
+0) Back
+Choose a stored-message option: Message ID: 4087278143
+Message Hash: 40:4:OKYOU
+Recipient: +27838884567
+Message: Ok, I am leaving without you.
+Sender: +27838968976
+Message Number: 4
+Status: Stored
+
+Stored Messages
+1) Display senders and recipients
+2) Longest stored message
+3) Search by message ID
+4) Search stored messages by recipient
+5) Delete by message hash
+6) Full stored-message report
+7) Full sent-message report
+8) Search sent or stored messages by recipient
+0) Back
+Choose a stored-message option: Message ID: Message ID not found.
+
+Stored Messages
+1) Display senders and recipients
+2) Longest stored message
+3) Search by message ID
+4) Search stored messages by recipient
+5) Delete by message hash
+6) Full stored-message report
+7) Full sent-message report
+8) Search sent or stored messages by recipient
+0) Back
+Choose a stored-message option: 
+1) Send Messages
+2) Show recently sent messages
+3) Quit
+4) Stored Messages
+Choose an option: Total messages sent: 0
+Goodbye.
